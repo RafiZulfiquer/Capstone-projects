@@ -1,0 +1,81 @@
+.gradient-background { background-color: white;
+}
+
+h1{font-family: cursive;}
+p{font-family: cursive;}
+div{font-family: cursive; text-align: center;}
+
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+
+#hero{text-align: center;
+margin-bottom: 5%;}
+
+.first{
+height: 100%;
+width: 100%;  
+}
+
+.container{margin: 0px;
+  font-family: cursive;
+}
+
+.skills{border-radius: 80%;
+height: 50px;
+width: 50px;}
+
+.footer{background-color: #F6EACB;}
+
+.flex-container {
+  display: flex;
+}
+
+.Academics{flex: 6;}
+
+.flex-column{padding: 20px;
+text-align: justify;}
+
+.card-img{height: 100%; width: 100%}
+
+
+.card-img {
+  width: 100%;       /* Ensures image spans the full width of the card */
+  height: 200px;     /* Sets a fixed height for all images */
+  object-fit: cover; /* Maintains aspect ratio and fills the defined area */
+}
+
+.fw-semibold mb-0 text-body-emphasis{text-align: center;}
+
+
+
+
+        /* Set a fixed height for the carousel */
+        .carousel-item {
+          height: 400px; /* Adjust this height as needed */
+      }
+
+      /* Ensure images fill the carousel while maintaining aspect ratio */
+      .carousel-item img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover; /* This makes sure the image covers the container */
+      }
+
+  .carousel{ 
+    @media (min-width: 1200px) {
+      .carousel-item{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+      }
+    
+
+    
+    
+  }}
