@@ -1,0 +1,24 @@
+body {
+background-color: beige;
+
+}
+
+.h {text-align: center;
+    align-content: center;
+	color: burlywood;
+}
+
+.container{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: large;
+	font-stretch: expanded;
+	background-color: bisque;
+	color: gray;
+
+
+}
+.card {
+    background-color:ightblue;
+    padding: 20px;
+    border-radius: 10px;
+}
